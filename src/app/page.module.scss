@@ -2,6 +2,28 @@
     padding: 0vh 5vw;
 
     .main{
-     padding-top: 1em;
+     padding-top: 2em;
+     
+     .banner{
+        display: Grid template columns repeat (2,1fr);
+        align-items: center;
+        
+        h3{
+            font-size: 1.8em;
+            padding-bottom: 0.5em;
+        }
+        p{
+            font-size: 1.2em;
+            padding-bottom: 1em;
+        }
+        .button{
+            padding: 10px 20px;
+            background-color: #375E97;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            color: #ffffff;
+        }
+     }
     }
 }
