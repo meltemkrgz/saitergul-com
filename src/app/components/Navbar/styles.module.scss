@@ -1,0 +1,35 @@
+.navbar {
+    padding: 10px 0px;
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid #d5d5d5;
+
+        .contactLink{
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+            padding: 5px 10px;
+            background-color: #375E97;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    }
+    .tabbar{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+        
+        li{
+
+            a{
+                color: #3d3d3d;
+            }
+        }
+    }
+}
