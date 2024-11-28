@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Navbar></Navbar>
       <main className={styles.main}>
         <div className={styles.banner}>
               <h3 className={styles.title}>Hayalinizdeki Ev İçin En Güvenilir Prefabrik Ev Firmasından Teklif Alın</h3>
