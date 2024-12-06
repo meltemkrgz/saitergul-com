@@ -1,12 +1,20 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./styles.module.scss";
 
 function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.topbar}>
-        <h1 className={styles.logo}>Logo</h1>
+        <div className={styles.logo}>
+          <Image
+            src={"/logo.png"}
+            width={"300"}
+            height={"200"}
+            alt="sait-ergul-logo"
+          ></Image>
+        </div>
         <Link href={"#"} className={styles.contactLink}>
           <img
             width="20"
@@ -19,13 +27,13 @@ function Navbar() {
       </div>
       <ul className={styles.tabbar}>
         <li>
-            <Link href={"#"}>Anasayfa</Link>
+          <Link href={"/"}>Anasayfa</Link>
         </li>
         <li>
-            <Link href={"#"}>Hizmetlerimiz</Link>
+          <Link href={"/Services"}>Hizmetlerimiz</Link>
         </li>
         <li>
-            <Link href={"#"}>Projeler</Link>
+          <Link href={"/Projects"}>Projeler</Link>
         </li>
       </ul>
     </nav>

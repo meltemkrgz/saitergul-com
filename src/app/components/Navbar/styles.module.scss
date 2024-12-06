@@ -1,12 +1,22 @@
 .navbar {
-    padding: 10px 0px;
+    padding: 10px 15px;
     border-bottom: 1px solid #d5d5d5;
+    background-color: #ffffff;
 
     .topbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 0.5em;
+
+        .logo{
+            width: 35%;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
 
         .contactLink{
             display: flex;
@@ -20,7 +30,7 @@
         }
     }
     .tabbar{
-        width: 65%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         padding: 10px 0em;
@@ -29,6 +39,7 @@
 
             a{
                 color: #3d3d3d;
+                font-size: 0.9rem;
             }
         }
     }

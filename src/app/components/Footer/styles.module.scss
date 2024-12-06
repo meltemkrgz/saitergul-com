@@ -1,0 +1,46 @@
+// components/styles.module.scss
+
+.footer {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #000;  // Text color to stand out on the gradient
+    background-color: #fff;
+  
+    &__contact-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    &__contact-text {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    &__contact-details {
+      font-size: 16px;
+    }
+  
+    &__contact-item {
+      margin-bottom: 8px;
+    }
+  
+    &__link {
+      color: #000;  // Make links white for contrast
+      text-decoration: none;
+    }
+  
+    &__links-container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+
+  
+    &__bottom {
+      text-align: center;
+      font-size: 14px;
+      color: #000;
+    }
+  }
+  
