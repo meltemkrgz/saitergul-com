@@ -1,4 +1,6 @@
 import './globals.css';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 export const metadata = {
   title: "Hatay Prefabrik Ev ve Ofis | Uygun Fiyatlı Prefabrik Çözümler",
@@ -38,7 +40,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body style={{ fontFamily: "'Montserrat', sans-serif", margin: 0, padding: 0 }}>
+        <Navbar></Navbar>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
