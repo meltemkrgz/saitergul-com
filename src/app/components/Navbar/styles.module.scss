@@ -1,12 +1,12 @@
 .navbar {
     padding: 10px 0px;
+    border-bottom: 1px solid #d5d5d5;
 
     .topbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 0.5em;
-        border-bottom: 1px solid #d5d5d5;
 
         .contactLink{
             display: flex;
